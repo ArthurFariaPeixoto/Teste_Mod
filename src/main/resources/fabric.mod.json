@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "teste",
+  "version": "${version}",
+
+  "name": "Mod Teste",
+  "description": "Primeira tentativa de mod!",
+  "authors": [
+    "TheModerninho"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/ArthurFariaPeixoto/Teste_de_Mod_V1.git"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/teste/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
