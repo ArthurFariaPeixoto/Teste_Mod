@@ -13,14 +13,14 @@ public class ModBlocks {
 
     public static final Block NIOBIO_ORE = new Block(FabricBlockSettings
             .of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 1)
+            .breakByTool(FabricToolTags.PICKAXES, 2)
             .requiresTool()
             .strength(3.0f, 20.0f)
             .sounds(BlockSoundGroup.STONE));
 
     public static final Block NIOBIO_BLOCK = new Block(FabricBlockSettings
             .of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 1)
+            .breakByTool(FabricToolTags.PICKAXES, 2)
             .requiresTool()
             .strength(5.0f, 30.0f)
             .sounds(BlockSoundGroup.METAL));

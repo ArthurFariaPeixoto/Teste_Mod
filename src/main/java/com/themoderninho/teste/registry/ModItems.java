@@ -3,10 +3,8 @@ package com.themoderninho.teste.registry;
 import com.themoderninho.teste.Teste;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-
 
 public class ModItems {
     //Itens
@@ -16,6 +14,8 @@ public class ModItems {
     //Itens de Blocos
     public static final BlockItem NIOBIO_ORE = new BlockItem(ModBlocks.NIOBIO_ORE, new Item.Settings().group(Teste.ITEM_GROUP_BLOCKS));
     public static final BlockItem NIOBIO_BLOCK = new BlockItem(ModBlocks.NIOBIO_BLOCK, new Item.Settings().group(Teste.ITEM_GROUP_BLOCKS));
+
+
 
     public static void registerItems(){
         //Itens

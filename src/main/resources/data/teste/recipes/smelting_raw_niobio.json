@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "teste:raw_niobio"
+  },
+  "result": "teste:niobio_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

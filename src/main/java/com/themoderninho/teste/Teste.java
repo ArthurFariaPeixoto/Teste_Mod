@@ -10,8 +10,11 @@ import net.minecraft.util.Identifier;
 
 public class Teste implements ModInitializer {
 
+    //Mod ID
     public static final String MOD_ID = "teste";
 
+
+    //Grupos de Item
     public static final ItemGroup ITEM_GROUP_MATERIAL = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "material"),
             () -> new ItemStack(ModItems.NIOBIO_INGOT)
@@ -20,7 +23,6 @@ public class Teste implements ModInitializer {
             new Identifier(MOD_ID, "block"),
             () -> new ItemStack(ModItems.NIOBIO_BLOCK)
     );
-
 
     @Override
     public void onInitialize() {

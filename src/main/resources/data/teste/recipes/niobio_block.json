@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "teste:niobio_ingot"
+    }
+  },
+  "result": {
+    "item": "teste:niobio_block",
+    "count": 1
+  }
+}

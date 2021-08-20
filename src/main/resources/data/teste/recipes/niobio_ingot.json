@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "teste:niobio_block"
+    }
+  ],
+  "result": {
+    "item": "teste:niobio_ingot",
+    "count": 9
+  }
+}
