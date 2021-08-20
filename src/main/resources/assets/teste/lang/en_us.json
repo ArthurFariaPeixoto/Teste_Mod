@@ -1,5 +1,8 @@
 {
   "item.teste.niobio_ingot": "Niobium ingot",
   "item.teste.raw_niobio": "Raw niobium",
-  "block.teste.niobio_ore": "Niobium ore"
+  "block.teste.niobio_ore": "Niobium ore",
+  "block.teste.niobio_block": "Niobium block",
+  "itemGroup.teste.material": "Materials",
+  "itemGroup.teste.blocks": "Blocks"
 }
