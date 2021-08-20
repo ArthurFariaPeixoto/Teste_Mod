@@ -10,7 +10,7 @@
   ],
   "contact": {
     "homepage": "",
-    "sources": "https://github.com/ArthurFariaPeixoto/Teste_de_Mod_V1.git"
+    "sources": ""
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.themoderninho.teste.Teste"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
