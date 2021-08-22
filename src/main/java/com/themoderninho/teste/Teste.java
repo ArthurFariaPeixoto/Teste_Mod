@@ -21,7 +21,7 @@ public class Teste implements ModInitializer {
     );
     public static final ItemGroup ITEM_GROUP_BLOCKS = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "block"),
-            () -> new ItemStack(ModItems.NIOBIO_BLOCK)
+            () -> new ItemStack(ModItems.NIOBIO_ORE)
     );
 
     @Override
