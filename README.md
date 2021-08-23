@@ -1,7 +1,7 @@
 # Fabric Example Mod
 ## Sobre
 
-Meu primeiro mod de Minecraft
+My first Minecraft mod
 
 ## Setup
 
