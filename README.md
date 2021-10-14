@@ -1,7 +1,7 @@
 # Fabric Example Mod
 ## Sobre
 
-My first Minecraft mod
+Mod for minecraft that adds some blocks and ores. In the future I want to create some biomes and custom structures.
 
 ## Setup
 
