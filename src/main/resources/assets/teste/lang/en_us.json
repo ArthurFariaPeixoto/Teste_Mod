@@ -5,5 +5,6 @@
   "block.teste.niobio_ore": "Niobium ore",
   "block.teste.niobio_block": "Niobium block",
   "itemGroup.teste.material": "Materials",
-  "itemGroup.teste.blocks": "Blocks"
+  "itemGroup.teste.blocks": "Blocks",
+  "biome.teste.SnowyFields": "Snowy Fields"
 }

@@ -5,5 +5,6 @@
   "block.teste.niobio_ore": "Minério de nióbio",
   "block.teste.niobio_block": "Bloco de nióbio",
   "itemGroup.teste.material": "Materiais",
-  "itemGroup.teste.blocks": "Blocos"
+  "itemGroup.teste.blocks": "Blocos",
+  "biome.teste.SnowyFields": "Campos Nevados"
 }
