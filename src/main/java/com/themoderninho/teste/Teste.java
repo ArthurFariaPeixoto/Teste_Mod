@@ -1,5 +1,6 @@
 package com.themoderninho.teste;
 
+import com.themoderninho.teste.registry.Biomes;
 import com.themoderninho.teste.registry.ModBlocks;
 import com.themoderninho.teste.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -25,6 +26,8 @@ public class Teste implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        Biomes.registerBiome();
+
         ModItems.registerItems();
         ModBlocks.registerBlocks();
 
