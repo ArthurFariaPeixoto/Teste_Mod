@@ -13,7 +13,6 @@ public class Teste implements ModInitializer {
     //Mod ID
     public static final String MOD_ID = "teste";
 
-
     //Grupos de Item
     public static final ItemGroup ITEM_GROUP_MATERIAL = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "material"),
