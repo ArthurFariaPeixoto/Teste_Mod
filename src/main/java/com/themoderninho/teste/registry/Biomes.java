@@ -37,13 +37,17 @@ public class Biomes {
 
 
         DefaultBiomeFeatures.addSnowySpruceTrees(generationSettings);
+        DefaultBiomeFeatures.addTaigaTrees(generationSettings);
+        DefaultBiomeFeatures.addFrozenTopLayer(generationSettings);
+        DefaultBiomeFeatures.addDefaultFlowers(generationSettings);
+        DefaultBiomeFeatures.addDefaultLakes(generationSettings);
+
         DefaultBiomeFeatures.addDungeons(generationSettings);
         DefaultBiomeFeatures.addMineables(generationSettings);
         DefaultBiomeFeatures.addAmethystGeodes(generationSettings);
         DefaultBiomeFeatures.addLandCarvers(generationSettings);
         DefaultBiomeFeatures.addDefaultUndergroundStructures(generationSettings);
-        DefaultBiomeFeatures.addDefaultFlowers(generationSettings);
-        DefaultBiomeFeatures.addDefaultLakes(generationSettings);
+
 
         return (new Biome.Builder())
                 .precipitation(Biome.Precipitation.SNOW)
@@ -53,10 +57,10 @@ public class Biomes {
                 .temperature(0.0F)
                 .downfall(0.4F)
                 .effects((new BiomeEffects.Builder())
-                        .waterColor(0x000BB6)
-                        .waterFogColor(0x000BB6)
-                        .skyColor(0x00ACFF)
-                        .fogColor(0)
+                        .waterColor(0x328CF1)
+                        .waterFogColor(0x328CF1)
+                        .skyColor(0x85D7FF)
+                        .fogColor(1)
                         .build())
                 .spawnSettings(spawnSettings.build())
                 .generationSettings(generationSettings.build())
@@ -70,7 +74,6 @@ public class Biomes {
         Registry.register(BuiltinRegistries.BIOME, SNOWY_FIELDS_KEY.getValue(), SNOWY_FIELDS);
 
         OverworldBiomes.addContinentalBiome(SNOWY_FIELDS_KEY, OverworldClimate.SNOWY, 20);
-        //OverworldBiomes.addContinentalBiome(SNOWY_FIELDS_KEY, OverworldClimate.COOL, 20);
 
     }
 }
