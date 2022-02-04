@@ -24,9 +24,9 @@ public class Biomes {
             Blocks.GRAVEL.getDefaultState())
     );
 
-    public static Biome SNOWY_FIELDS = createBiome();
+    public static Biome SNOWY_FIELDS = createBiome_SnowyFields();
 
-    public static Biome createBiome(){
+    public static Biome createBiome_SnowyFields(){
         SpawnSettings.Builder spawnSettings = new SpawnSettings.Builder();
         GenerationSettings.Builder generationSettings = new GenerationSettings.Builder();
         generationSettings.surfaceBuilder(CUSTOM_SURFACE_BUILDER);
