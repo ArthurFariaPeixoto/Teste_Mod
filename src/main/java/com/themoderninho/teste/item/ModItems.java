@@ -22,6 +22,8 @@ public class ModItems {
     public static final BlockItem BAOBAB_PLANKS = new BlockItem(ModBlocks.BAOBAB_PLANKS, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
     public static final BlockItem BAOBAB_PLANKS_SLAB = new BlockItem(ModBlocks.BAOBAB_PLANKS_SLAB, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
     public static final BlockItem BAOBAB_PLANKS_STAIR = new BlockItem(ModBlocks.BAOBAB_PLANKS_STAIR, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
+    public static final BlockItem BAOBAB_FENCE = new BlockItem(ModBlocks.BAOBAB_FENCE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
+    public static final BlockItem BAOBAB_FENCE_GATE = new BlockItem(ModBlocks.BAOBAB_FENCE_GATE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
 
     //Itens de comida
     public static final Item PEPPER = new Item(new Item.Settings()
@@ -44,6 +46,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "baobab_planks"), BAOBAB_PLANKS);
         Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "baobab_planks_slab"), BAOBAB_PLANKS_SLAB);
         Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "baobab_planks_stair"), BAOBAB_PLANKS_STAIR);
+        Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "baobab_fence"), BAOBAB_FENCE);
+        Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "baobab_fence_gate"), BAOBAB_FENCE_GATE);
 
 
         //Itens Comestiveis

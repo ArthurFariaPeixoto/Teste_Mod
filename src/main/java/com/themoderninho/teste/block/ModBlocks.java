@@ -4,9 +4,7 @@ import com.themoderninho.teste.Teste;
 import com.themoderninho.teste.block.custom.ModStairsBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.SlabBlock;
+import net.minecraft.block.*;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -45,13 +43,29 @@ public class ModBlocks {
             .strength(3.0f, 10.0f)
             .sounds(BlockSoundGroup.WOOD));
 
+    public static final Block BAOBAB_FENCE = new FenceBlock(FabricBlockSettings
+            .of(Material.WOOD)
+            .breakByTool(FabricToolTags.AXES, 0)
+            .strength(3.0f, 10.0f)
+            .sounds(BlockSoundGroup.WOOD));
+
+    public static final Block BAOBAB_FENCE_GATE = new FenceGateBlock(FabricBlockSettings
+            .of(Material.WOOD)
+            .breakByTool(FabricToolTags.AXES, 0)
+            .strength(3.0f, 10.0f)
+            .sounds(BlockSoundGroup.WOOD));
+
 
     public static void registerBlocks(){
+
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "niobio_ore"), NIOBIO_ORE);
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "niobio_block"), NIOBIO_BLOCK);
+
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_planks"), BAOBAB_PLANKS);
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_planks_stair"), BAOBAB_PLANKS_STAIR);
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_planks_slab"), BAOBAB_PLANKS_SLAB);
+        Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_fence"), BAOBAB_FENCE);
+        Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_fence_gate"), BAOBAB_FENCE_GATE);
 
     }
 }
