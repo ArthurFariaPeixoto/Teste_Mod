@@ -1,5 +1,6 @@
 package com.themoderninho.teste.registry;
 
+import com.themoderninho.teste.Teste;
 import net.fabricmc.fabric.api.biome.v1.OverworldBiomes;
 import net.fabricmc.fabric.api.biome.v1.OverworldClimate;
 import net.minecraft.block.Blocks;
@@ -7,10 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.biome.BiomeEffects;
-import net.minecraft.world.biome.GenerationSettings;
-import net.minecraft.world.biome.SpawnSettings;
+import net.minecraft.world.biome.*;
 import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
 import net.minecraft.world.gen.surfacebuilder.ConfiguredSurfaceBuilder;
 import net.minecraft.world.gen.surfacebuilder.SurfaceBuilder;
@@ -47,6 +45,8 @@ public class Biomes {
         DefaultBiomeFeatures.addAmethystGeodes(generationSettings);
         DefaultBiomeFeatures.addLandCarvers(generationSettings);
         DefaultBiomeFeatures.addDefaultUndergroundStructures(generationSettings);
+        DefaultBiomeFeatures.addDefaultOres(generationSettings);
+        DefaultBiomeFeatures.addTaigaGrass(generationSettings);
 
 
         return (new Biome.Builder())
@@ -67,10 +67,10 @@ public class Biomes {
                 .build();
     }
 
-    public static final RegistryKey<Biome> SNOWY_FIELDS_KEY = RegistryKey.of(Registry.BIOME_KEY, new Identifier("teste", "snowyfields"));
+    public static final RegistryKey<Biome> SNOWY_FIELDS_KEY = RegistryKey.of(Registry.BIOME_KEY, new Identifier(Teste.MOD_ID, "snowyfields"));
 
-    public static void registerBiome(){
-        Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier("teste", "grass_block"), CUSTOM_SURFACE_BUILDER);
+    public static void registerBiomes(){
+        Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier(Teste.MOD_ID, "grass_block"), CUSTOM_SURFACE_BUILDER);
         Registry.register(BuiltinRegistries.BIOME, SNOWY_FIELDS_KEY.getValue(), SNOWY_FIELDS);
 
         OverworldBiomes.addContinentalBiome(SNOWY_FIELDS_KEY, OverworldClimate.SNOWY, 20);

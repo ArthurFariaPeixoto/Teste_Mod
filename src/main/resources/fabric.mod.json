@@ -6,7 +6,7 @@
   "name": "Mod Teste",
   "description": "Primeira tentativa de mod!",
   "authors": [
-    "TheModerninho"
+    "Arthur Faria"
   ],
   "contact": {
     "homepage": "",
@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "teste.mixins.json"
   ],
 
   "depends": {

@@ -1,13 +1,10 @@
 package com.themoderninho.teste;
 
 import com.themoderninho.teste.registry.Biomes;
-import com.themoderninho.teste.registry.ModBlocks;
-import com.themoderninho.teste.registry.ModItems;
+import com.themoderninho.teste.block.ModBlocks;
+import com.themoderninho.teste.item.ModItems;
+import com.themoderninho.teste.registry.ModRegistries;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.Identifier;
 
 public class Teste implements ModInitializer {
 
@@ -15,21 +12,13 @@ public class Teste implements ModInitializer {
     public static final String MOD_ID = "teste";
 
     //Grupos de Item
-    public static final ItemGroup ITEM_GROUP_MATERIAL = FabricItemGroupBuilder.build(
-            new Identifier(MOD_ID, "material"),
-            () -> new ItemStack(ModItems.NIOBIO_INGOT)
-    );
-    public static final ItemGroup ITEM_GROUP_BLOCKS = FabricItemGroupBuilder.build(
-            new Identifier(MOD_ID, "block"),
-            () -> new ItemStack(ModItems.NIOBIO_ORE)
-    );
 
     @Override
     public void onInitialize() {
-        Biomes.registerBiome();
-
+        Biomes.registerBiomes();
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        ModRegistries.registerFuels();
 
     }
 }

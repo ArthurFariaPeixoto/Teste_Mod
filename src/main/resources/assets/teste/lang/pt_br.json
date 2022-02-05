@@ -2,9 +2,15 @@
   "item.teste.niobio_ingot": "Barra de nióbio",
   "item.teste.raw_niobio": "Nióbio bruto",
   "item.teste.reinforced_iron_ingot": "Ferro reforçado",
+  "item.teste.pepper": "Pimenta",
+  "item.teste.fuel": "Combustivel natural",
+
   "block.teste.niobio_ore": "Minério de nióbio",
   "block.teste.niobio_block": "Bloco de nióbio",
+
   "itemGroup.teste.material": "Materiais",
-  "itemGroup.teste.blocks": "Blocos",
+  "itemGroup.teste.block": "Blocos",
+  "itemGroup.teste.food": "Comida",
+
   "biome.teste.SnowyFields": "Campos Nevados"
 }

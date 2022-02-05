@@ -1,4 +1,4 @@
-package com.themoderninho.teste.registry;
+package com.themoderninho.teste.block;
 
 import com.themoderninho.teste.Teste;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;

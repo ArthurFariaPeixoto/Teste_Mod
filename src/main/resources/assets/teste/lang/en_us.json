@@ -2,9 +2,15 @@
   "item.teste.niobio_ingot": "Niobium ingot",
   "item.teste.raw_niobio": "Raw niobium",
   "item.teste.reinforced_iron_ingot": "Reinforced iron",
+  "item.teste.pepper": "Pepper",
+  "item.teste.fuel": "Natural fuel",
+
   "block.teste.niobio_ore": "Niobium ore",
   "block.teste.niobio_block": "Niobium block",
+
   "itemGroup.teste.material": "Materials",
-  "itemGroup.teste.blocks": "Blocks",
+  "itemGroup.teste.block": "Blocks",
+  "itemGroup.teste.food": "Food",
+
   "biome.teste.SnowyFields": "Snowy Fields"
 }
