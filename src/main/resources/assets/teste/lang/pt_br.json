@@ -7,6 +7,9 @@
 
   "block.teste.niobio_ore": "Minério de nióbio",
   "block.teste.niobio_block": "Bloco de nióbio",
+  "block.teste.baobab_planks": "Tábuas de baobá",
+  "block.teste.baobab_planks_slab": "Laje de baobá",
+  "block.teste.baobab_planks_stair": "Escadaria de baobá",
 
   "itemGroup.teste.material": "Materiais",
   "itemGroup.teste.block": "Blocos",

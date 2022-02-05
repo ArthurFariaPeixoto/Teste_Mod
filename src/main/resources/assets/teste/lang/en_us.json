@@ -7,6 +7,9 @@
 
   "block.teste.niobio_ore": "Niobium ore",
   "block.teste.niobio_block": "Niobium block",
+  "block.teste.baobab_planks": "Baobab planks",
+  "block.teste.baobab_planks_slab": "Baobab slab",
+  "block.teste.baobab_planks_stair": "Baobab stairs",
 
   "itemGroup.teste.material": "Materials",
   "itemGroup.teste.block": "Blocks",
