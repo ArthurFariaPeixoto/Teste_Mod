@@ -18,6 +18,9 @@
   "itemGroup.teste.material": "Materials",
   "itemGroup.teste.block": "Blocks",
   "itemGroup.teste.food": "Food",
+  "itemGroup.teste.redstone": "Redstone",
+  "itemGroup.teste.decoration": "Decorative Blocks",
+
 
   "biome.teste.SnowyFields": "Snowy Fields"
 }

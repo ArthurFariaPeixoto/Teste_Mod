@@ -18,6 +18,8 @@
   "itemGroup.teste.material": "Materiais",
   "itemGroup.teste.block": "Blocos",
   "itemGroup.teste.food": "Comida",
+  "itemGroup.teste.redstone": "Redstone",
+  "itemGroup.teste.decoration": "Blocos decorativos",
 
   "biome.teste.SnowyFields": "Campos nevados"
 }

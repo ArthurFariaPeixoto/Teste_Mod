@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    //Itens
+    //Itens de materiais
     public static final Item NIOBIO_INGOT = new Item(new Item.Settings().group(ModItemGroup.ITEM_GROUP_MATERIAL));
     public static final Item RAW_NIOBIO = new Item(new Item.Settings().group(ModItemGroup.ITEM_GROUP_MATERIAL));
     public static final Item REINFORCED_IRON_INGOT = new Item(new Item.Settings().group(ModItemGroup.ITEM_GROUP_MATERIAL));
@@ -22,10 +22,14 @@ public class ModItems {
     public static final BlockItem BAOBAB_PLANKS = new BlockItem(ModBlocks.BAOBAB_PLANKS, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
     public static final BlockItem BAOBAB_PLANKS_SLAB = new BlockItem(ModBlocks.BAOBAB_PLANKS_SLAB, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
     public static final BlockItem BAOBAB_PLANKS_STAIR = new BlockItem(ModBlocks.BAOBAB_PLANKS_STAIR, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
-    public static final BlockItem BAOBAB_FENCE = new BlockItem(ModBlocks.BAOBAB_FENCE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
-    public static final BlockItem BAOBAB_FENCE_GATE = new BlockItem(ModBlocks.BAOBAB_FENCE_GATE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
-    public static final BlockItem BAOBAB_BUTTON = new BlockItem(ModBlocks.BAOBAB_BUTTON, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
-    public static final BlockItem BAOBAB_PRESSURE_PLATE = new BlockItem(ModBlocks.BAOBAB_PRESSURE_PLATE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_BLOCKS));
+
+    //Itens Decorativos
+    public static final BlockItem BAOBAB_FENCE = new BlockItem(ModBlocks.BAOBAB_FENCE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_DECORATION_BLOCK));
+
+    //Itens que interagem com redstone
+    public static final BlockItem BAOBAB_FENCE_GATE = new BlockItem(ModBlocks.BAOBAB_FENCE_GATE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_REDSTONE));
+    public static final BlockItem BAOBAB_BUTTON = new BlockItem(ModBlocks.BAOBAB_BUTTON, new Item.Settings().group(ModItemGroup.ITEM_GROUP_REDSTONE));
+    public static final BlockItem BAOBAB_PRESSURE_PLATE = new BlockItem(ModBlocks.BAOBAB_PRESSURE_PLATE, new Item.Settings().group(ModItemGroup.ITEM_GROUP_REDSTONE));
 
     //Itens de comida
     public static final Item PEPPER = new Item(new Item.Settings()
