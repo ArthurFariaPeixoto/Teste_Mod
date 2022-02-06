@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "teste:block/baobab_pressure_plate" },
+    "powered=true": { "model": "teste:block/baobab_pressure_plate_down" }
+  }
+}

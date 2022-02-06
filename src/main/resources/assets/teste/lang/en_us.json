@@ -12,6 +12,8 @@
   "block.teste.baobab_planks_stair": "Baobab Stairs",
   "block.teste.baobab_fence": "Baobab Fence",
   "block.teste.baobab_fence_gate": "Baobab Gate",
+  "block.teste.baobab_button": "Baobab Button",
+  "block.teste.baobab_pressure_plate": "Baobab Pressure Plate",
 
   "itemGroup.teste.material": "Materials",
   "itemGroup.teste.block": "Blocks",

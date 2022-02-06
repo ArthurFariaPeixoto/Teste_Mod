@@ -1,7 +1,9 @@
 package com.themoderninho.teste.block;
 
 import com.themoderninho.teste.Teste;
+import com.themoderninho.teste.block.custom.ModPressurePlateBlock;
 import com.themoderninho.teste.block.custom.ModStairsBlock;
+import com.themoderninho.teste.block.custom.ModWoodenButtonBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
@@ -55,6 +57,18 @@ public class ModBlocks {
             .strength(3.0f, 10.0f)
             .sounds(BlockSoundGroup.WOOD));
 
+    public static final Block BAOBAB_BUTTON = new ModWoodenButtonBlock(FabricBlockSettings
+            .of(Material.WOOD)
+            .breakByTool(FabricToolTags.AXES, 0)
+            .strength(3.0f, 10.0f)
+            .sounds(BlockSoundGroup.WOOD));
+
+    public static final Block BAOBAB_PRESSURE_PLATE = new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
+            .of(Material.WOOD)
+            .breakByTool(FabricToolTags.AXES, 0)
+            .strength(3.0f, 10.0f)
+            .sounds(BlockSoundGroup.WOOD));
+
 
     public static void registerBlocks(){
 
@@ -66,6 +80,8 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_planks_slab"), BAOBAB_PLANKS_SLAB);
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_fence"), BAOBAB_FENCE);
         Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_fence_gate"), BAOBAB_FENCE_GATE);
+        Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_button"), BAOBAB_BUTTON);
+        Registry.register(Registry.BLOCK, new Identifier(Teste.MOD_ID, "baobab_pressure_plate"), BAOBAB_PRESSURE_PLATE);
 
     }
 }
