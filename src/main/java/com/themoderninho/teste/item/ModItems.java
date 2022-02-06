@@ -53,7 +53,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "baobab_button"), BAOBAB_BUTTON);
         Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "baobab_pressure_plate"), BAOBAB_PRESSURE_PLATE);
 
-
         //Itens Comestiveis
         Registry.register(Registry.ITEM, new Identifier(Teste.MOD_ID, "pepper"), PEPPER);
 
