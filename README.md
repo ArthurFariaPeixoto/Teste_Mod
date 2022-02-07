@@ -1,12 +1,4 @@
-# Fabric Example Mod
-## Sobre
+# Test-Mod
+## About
 
-Mod for minecraft that adds some blocks and ores. In the future I want to create some biomes and custom structures. (under development)
-
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Simple mod for minecraft that adds some blocks, ores, biomes, custom items and more. (not finished)
